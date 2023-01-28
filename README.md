@@ -2,7 +2,7 @@
 <img src="https://user-images.githubusercontent.com/123624951/215276086-40dc54dd-1a73-4f36-8d75-45ad40ded42e.png" width="320px" height="357">
 
 
-## インストール法、始め方
+## インストール方法、始め方
 以下のコマンドを実行して、表示できます。
 
 ```bash
