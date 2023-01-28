@@ -81,12 +81,7 @@
         </a>
       </li>
     </ul>
-    <div class="p-recommend__more"><a href="/">View More <i class="fa-solid fa-plus"></i></a></div>
-  </section>
-  <section class="c-container c-sns">
-    <a href="/" class="c-sns__items">INSTAGRAM</a>
-    <a href="/" class="c-sns__items">TWITTER</a>
-    <a href="/" class="c-sns__items">FACEBOOK</a>
+    <div class="p-recommend__more"><a href="/">View More <i class="fas fa-plus"></i></a></div>
   </section>
 </main>
 

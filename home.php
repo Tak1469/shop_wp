@@ -60,7 +60,7 @@ Template Name: HOME 〜トップページ〜
         何も投稿がありません。
       <?php endif; ?>
     </ul>
-    <div class="p-recommend__more"><a href="<?php echo get_post_type_archive_link('item'); ?>">View More <i class="fa-solid fa-plus"></i></a></div>
+    <div class="p-recommend__more"><a href="<?php echo get_post_type_archive_link('item'); ?>">View More  <i class="fa-solid fa-plus"></i></a></div>
   </section>
   <?php get_template_part('content', 'sns'); ?>
 </main>

@@ -11,7 +11,7 @@
       <h1 class="p-container__title">Products</h1>
     </div>
 
-    <ul class="p-recommend js-offset">
+    <ul class="p-recommend js-offset js-products">
 
       <?php
       $paged = get_query_var('paged') ? get_query_var('paged') : 1;
@@ -48,8 +48,8 @@
         'current' => max(1, get_query_var('paged')),
         'total' => $the_query->max_num_pages,
         'type' => 'array',
-        'prev_text' => '<i class="fa-solid fa-caret-left"></i>',
-        'next_text' => '<i class="fa-solid fa-caret-right"></i>'
+        'prev_text' => '<i class="fa-solid fa-chevron-left"></i>',
+        'next_text' => '<i class="fa-solid fa-chevron-right"></i>'
       ));
       echo '<ul class="p-pagination"><li>';
       echo join('</li><li class="p-pagination__number">', $page_links);

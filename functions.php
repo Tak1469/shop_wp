@@ -1,6 +1,5 @@
 <?php
 
-
 /*=============================================
   管理画面など設定各種
 =============================================*/
@@ -18,10 +17,35 @@ add_action('admin_enqueue_scripts', 'custom_admin_enqueue');
 // 公開画面用の css js 読み込み
 function custom_enqueue()
 {
-  // 公開画面css
-  wp_enqueue_style('custom_admin_enqueue', get_template_directory_uri() . '/style.css');
+    //WordPress 本体の jQuery を登録解除
+    wp_deregister_script( 'jquery');  
+    //jQuery を CDN から読み込む
+    wp_enqueue_script( 'jquery', 
+      'https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js', 
+      array(), 
+      '3.6.0', 
+      true 
+    );
+      //fontawesome を CDN から読み込む
+    wp_enqueue_style( 'fontawesome', 
+      'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css', 
+    );
   // 公開画面js
-  wp_enqueue_script('custom_admin_enqueue', get_template_directory_uri() . '/custom/js/index.js');
+  wp_enqueue_script( 'custom_enqueue', get_theme_file_uri( '/custom/js/index.js' ),
+    array('jquery')
+);
+// import使用のため、index.jsにのみ属性にmoduleを付与
+  add_filter('script_loader_tag', 'add_type_module' , 10, 3);
+  function add_type_module($tag, $handle, $src) {
+    if ( 'custom_enqueue' !== $handle ) {
+      return $tag;
+  }
+    $tag = '<script type="module" src="'. esc_url( $src ).'"></script>';
+    return $tag;
+  }
+
+  // 公開画面css
+  wp_enqueue_style( 'custom_enqueue', get_theme_file_uri( '/style.css' ), false );
 }
 add_action('wp_enqueue_scripts', 'custom_enqueue');
 
