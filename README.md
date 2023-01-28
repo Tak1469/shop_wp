@@ -3,44 +3,44 @@
 
 
 ## インストール方法、始め方
-以下のコマンドを実行して、表示できます。
-
-```bash
-git https://github.com/Tak1469/LP_HikeMore.git
-cd LP_HikeMore
-npm run dev
-docker compose exec web npm install
-docker compose exec web npm run dev
-```
+git clone　ののち、
+<br>
+ご自身のワードプレスのテーマに設定をお願いいたします。
 
 ## サイト概要
 
-トレッキングガイドのイメージで作成いたしました。
+清潔感とシンプルなイメージでシューズショップのコーポレートサイトを作りました。
 <br>
-登山のイメージだけでなく自然を満喫できるという気持ちがおこしていくようにシンプルに仕上げました。
+見る人にどういったイメージを持って欲しいかパッと見てすぐに操作できるような配置を心がけました。
 <br>
 
 ## 使用技術
 -   HTML
 -   CSS、Sass
 -   FontAwesome
--   emailJS
--   Webpack
--   Babel
+-   wordpress
+-   jQuey 3.6.0
 
-jqueryを使わず、vanillajavascriptで動きをつけました。
+adobeXD を使いデザインカンプを作成し、コーディングがスムーズにできました。
 <br>
-パララックスの動きも一部のためライフラリーを使わずに再現いたしました。 
+gitには載せておりませんが、webpackを使いHTML,CSS,Javascriptのコーディングをしたのち、wordpressに落とし込みました。
 <br>
-webpackで開発環境を作る過程で開発環境と本番環境の分離に苦戦しましたが、まとめられる部分をcommon.jsへ集約ことができました。
+管理画面をカスタマイズ
+-   カスタムフィールド
+　　　　　-  商品登録・SNS登録・HOME画面のスライダーなど
+-   カスタムウィジェット　
+　　　　　-   今回は、不使用
+-   カスタム投稿
+　　　　　-   カテゴリー分け・おすすめに指定することでHOME画面に追加することが可能です。
 
-## 今後の課題
-ワイヤーフレームとデザインカンプを徹底して詰めてくことを学びました。
-<br>
-FLOCSSを使用するにあたり、命名基礎機の不安定さが課題。
-より数をこなすことが重要だと感じました。
+公開画面をカスタマイズ
+-   jsにてスライダー・商品をランダムに表示をライブラリーを使わずカスタマイズしました。
+-   scriptタグの属性変更に苦戦しまいた。
 
 ## 製作者
 N.Tak
 ## LP IMG
-![LP-HikeMore_all](https://user-images.githubusercontent.com/123624951/215268858-d983d408-6b95-434a-9e59-59ed462756ac.png)
+<img src="https://user-images.githubusercontent.com/123624951/215276086-40dc54dd-1a73-4f36-8d75-45ad40ded42e.png" width="50%" height="50%">
+<img src="https://user-images.githubusercontent.com/123624951/215276086-40dc54dd-1a73-4f36-8d75-45ad40ded42e.png" width="320px" height="357">
+<img src="https://user-images.githubusercontent.com/123624951/215276086-40dc54dd-1a73-4f36-8d75-45ad40ded42e.png" width="320px" height="357">
+<img src="https://user-images.githubusercontent.com/123624951/215276086-40dc54dd-1a73-4f36-8d75-45ad40ded42e.png" width="320px" height="357">
