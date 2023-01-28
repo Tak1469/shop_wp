@@ -39,8 +39,7 @@ gitには載せておりませんが、webpackを使いHTML,CSS,Javascriptのコ
 
 ## 製作者
 N.Tak
-## LP IMG
-<img src="https://user-images.githubusercontent.com/123624951/215276086-40dc54dd-1a73-4f36-8d75-45ad40ded42e.png" width="50%" height="50%">
-<img src="https://user-images.githubusercontent.com/123624951/215276086-40dc54dd-1a73-4f36-8d75-45ad40ded42e.png" width="320px" height="357">
-<img src="https://user-images.githubusercontent.com/123624951/215276086-40dc54dd-1a73-4f36-8d75-45ad40ded42e.png" width="320px" height="357">
-<img src="https://user-images.githubusercontent.com/123624951/215276086-40dc54dd-1a73-4f36-8d75-45ad40ded42e.png" width="320px" height="357">
+## WP IMG
+<img src="https://user-images.githubusercontent.com/123624951/215279591-100254ce-e421-41e7-b275-c3fd3f99e4bb.png" width="50%" height="50%">
+<img src="https://user-images.githubusercontent.com/123624951/215279595-a357dbc5-bf98-4c35-87da-e9a84fe76a9a.png"width="50%" height="50%">
+<img src="https://user-images.githubusercontent.com/123624951/215279601-b2434cd3-b109-4dcf-ae5b-773ac2e6a6f0.png" width="50%" height="50%">
