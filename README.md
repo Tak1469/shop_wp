@@ -25,6 +25,11 @@ adobeXD を使いデザインカンプを作成し、コーディングがスム
 <br>
 gitには載せておりませんが、webpackを使いHTML,CSS,Javascriptのコーディングをしたのち、wordpressに落とし込みました。
 <br>
+-   **本棚表示/タイムライン表示**（無限スクロール）
+    -   本棚内の絵本検索（Vue.js, Vue Tugs Input）
+    -   いいね（Vue.js）
+    -   フォロー（Vue.js）
+ <br>
 管理画面をカスタマイズ
 -   カスタムフィールド
 <br>
