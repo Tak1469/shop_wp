@@ -1,4 +1,4 @@
-import { hamburger } from "../js/module/hamburger.js";
+import { hamburger } from "./module/hamburger.js";
 import { headerColor } from "./module/headerColor.js";
 import { goodsRandomShow } from "./module/goodsRandomShow.js";
 import { heroSlider } from "./module/heroSlider.js";

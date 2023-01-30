@@ -65,20 +65,6 @@ function custom_attribute($html)
   return $html;
 }
 
-// 管理ページのメニュー非表示（固定ページ カスタムフィールドから設定するため）
-// function remove_post_function()
-// {
-//   remove_post_type_support('post', 'comments'); // コメント
-//   remove_post_type_support('post', 'post-formats'); // 投稿フォーマット
-//   remove_post_type_support('post', 'thumbnail'); // アイキャッチ（投稿） カスタムページには表示できるようにしている。
-//   remove_post_type_support('page', 'thumbnail'); // アイキャッチ（固定ページ）
-
-//   unregister_taxonomy_for_object_type('category', 'post'); // カテゴリ
-//   unregister_taxonomy_for_object_type('post_tag', 'post'); // タグ
-// }
-// add_action('init', 'remove_post_function');
-
-
 // カスタムメニューの使用
 register_nav_menu('main_nav_menu', ' ヘッダーナビゲーション');
 
@@ -298,7 +284,7 @@ class recommend_widgets_item1 extends WP_Widget
     </p>
     <?php
   }
-  // ウィジェットにに入力された情報を保存する処理
+  // ウィジェットに入力された情報を保存する処理
   function update($new_instance, $old_instance)
   {
     $instance = $old_instance;
@@ -336,17 +322,6 @@ class recommend_widgets_item1 extends WP_Widget
     }
   }
 }
-
-/*=============================================
-投稿の非表示
-=============================================*/
-/*【管理画面】投稿メニューを非表示 ブログなどつかがあれば再編集するものとする。*/
-// function remove_menus()
-// {
-//   global $menu;
-//   remove_menu_page('edit.php'); // 投稿を非表示
-// }
-// add_action('admin_menu', 'remove_menus');
 
 /*=============================================
 カスタム投稿
