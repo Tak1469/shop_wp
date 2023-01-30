@@ -5,6 +5,8 @@
 ## インストール方法、始め方
 git clone　ののち
 <br>
+data-importファイルから、varicolori.WordPress.xmlをインポートしてください。
+<br>
 ご自身のワードプレスのテーマに設定をお願いいたします。
 
 ## サイト概要
