@@ -1,9 +1,11 @@
-# Webサイト Wordpress制作　『Vari Colori』
+# Webサイト Wordpress制作 『Vari Colori』
 <img src="https://user-images.githubusercontent.com/123624951/215276086-40dc54dd-1a73-4f36-8d75-45ad40ded42e.png" width="320px" height="357">
 
+## サイトURL
+https://varicolori.n-taks.com/
 
 ## インストール方法、始め方
-git clone　ののち
+git clone ののち
 <br>
 data-importファイルから、varicolori.WordPress.xmlをインポートしてください。
 <br>
